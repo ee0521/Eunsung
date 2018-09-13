@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id ="company" class ="com.test.wDAO.Company">
+    <property name ="name" ><value>은성사</value></property>
+    <property name ="tel" ><value>02-111-1234</value></property>
+    <property name ="ftel" ><value>02-979-4452</value></property>
+    <property name ="address" ><value>서울 노원구 초안산로11</value></property>
+</bean>
+
+</beans>
